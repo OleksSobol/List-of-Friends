@@ -1,6 +1,6 @@
 # List-of-Friends
 
-![alt text](https://drive.google.com/open?id=1gWBXOzNAVA_Z_tTj1zHm8WLPyLzdqfjp)
+![alt text](https://lh5.googleusercontent.com/8BJfLcveYBTLcVS-n5R2YsmLxWKSX-wOXaP6z4JhC4tGhBhpe7E4dMbxFmsJxLR9ubiKl_bdQeAgT1HpCXC5=w1299-h639)
 
 # RESTful Express Node js Project
 * This project was build with these tools:
