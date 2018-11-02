@@ -13,7 +13,7 @@
   * Body Parser
   
 * Web app with ability to add/edit/delete object to/from database.
-![form](https://lh4.googleusercontent.com/MGDR3cDhxA169P0TXHVsxjur5ERlHt5Bghgy-e9SgS-DLgsLQsxokl_u27-cFUVR_0_tLrPwHZ0WQM9r15tY=w1299-h592-rw)
+* ![form](https://lh4.googleusercontent.com/MGDR3cDhxA169P0TXHVsxjur5ERlHt5Bghgy-e9SgS-DLgsLQsxokl_u27-cFUVR_0_tLrPwHZ0WQM9r15tY=w1299-h592-rw)
 
 # Install
 * Download the project
