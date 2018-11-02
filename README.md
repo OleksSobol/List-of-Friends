@@ -11,6 +11,7 @@
   * Mongoose
   * MongoDB
   * Body Parser
+  * Semantic UI
   
 * Web app with ability to add/edit/delete object to/from database.
 * ![form](https://lh4.googleusercontent.com/OwtKxdxtJHnUggOEGIr8D-8UMf-0nCXz1KFjSPWvV9oZ2QbFBNcRvVn5Co5eJrv0clTRtW9xDg6SWuPpbnyc=w1299-h592-rw)
