@@ -13,6 +13,6 @@
 
 # Install
 * Download the project
-* {install node.js}(https://nodejs.org/en/download/)
-* {mongoDB}(https://www.mongodb.com/download-center)
+* [install node.js](https://nodejs.org/en/download/)
+* [mongoDB](https://www.mongodb.com/download-center)
 * and simply run npm app.js
