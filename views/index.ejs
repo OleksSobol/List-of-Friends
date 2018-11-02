@@ -1,0 +1,31 @@
+<%include ./partials/header %>
+
+<div class="thirteen wide stretched column">
+    <div class="ui segment">
+        <div class="ui link cards">
+            <% friends.forEach(function(friend){ %>
+            <div class="card" >
+                <div class="image">
+                        <img src="<%=friend.image%>" alt="main">
+                </div>
+                <div class="content">
+                    <div class="header">
+                        <%=friend.first_name%>
+                        <%=friend.last_name%> 
+                    </div>
+                    <div class="meta phone number">
+                        <%=friend.phone%>
+                    </div>
+                    <div class="description">
+                        <%=friend.description.substring(0,100)%>...
+                    </div>
+                </div>
+                <div class="extra">
+                    <a class="ui button fluid basic violet" href="/friends/<%=friend._id%>">Read more</a>
+                </div>
+            </div>
+            <%}); %>
+        </div>
+    </div>
+</div>
+<%include ./partials/footer %>

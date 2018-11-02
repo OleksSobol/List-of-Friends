@@ -1,0 +1,39 @@
+<%include ./partials/header %>
+
+<h1 class="ui header centered">Add a New Friend</h1>
+<div class="ui container segment text">
+    <form action="/friends" method="POST">
+        <div class="ui form">
+            <div class="two fields">
+                <div class="field">
+                    <label>First name</label>
+                    <input type="text" name="friend[first_name]" placeholder="First Name" required>
+                </div>
+                <div class="field">
+                    <label>Last name</label>
+                    <input type="text" name="friend[last_name]" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="field">
+                <label>Image URL</label>
+                <input type="text" name="friend[image]" placeholder="optional">
+            </div>
+            <div class=" two fields">
+                <div class="field">
+                    <label>Phone Number</label>
+                    <input type="tel" name="friend[phone]" placeholder="(xxx) xxx xxxx">
+                </div>
+                <div class="field">
+                    <label>Date of Birth:</label>
+                    <input type="date" name="friend[date_birth]" required>
+                </div>
+            </div>
+            <div class="field">
+                    <label>Description</label>
+                    <textarea name="friend[description]" cols="30" rows="10"></textarea>
+            </div>
+            <button class="ui fluid button green " type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+<%include ./partials/footer %>

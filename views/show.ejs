@@ -1,0 +1,65 @@
+<%include ./partials/header %>
+<h1 class="ui centered header">Show page</h1>
+<div class="ui internally celled grid container">
+    <div class="eight wide column">
+        <div class="ui image">
+            <img src="<%=friend.image%>" alt="main">
+        </div>
+    </div>
+    <div class="eight wide column">
+        <table class="ui celled table">
+            <thead>
+                <tr>
+                    <th>Name: </th>
+                    <th>
+                        <%=friend.first_name%>
+                        <%=friend.last_name%>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Phone:</th>
+                    <th>
+                        <%=friend.phone%>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Age:</th>
+                    <th>
+                        <%if(friend.date_birth != null){%>
+                        <%=friend._calculateAge(friend.date_birth)%>
+                        <%} else {%>
+                            N/A
+                        <%}%>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Description</th>
+                    <th>
+                        <%-friend.description%>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="ui centered grid container">
+        <div class="eight wide  column">
+            <a class="ui fluid button hover orange basic" href="/friends/<%-friend._id%>/edit">
+                <i class="user icon"></i>
+                <i class="edit icon"></i>
+                Edit  Friend
+            </a>
+        </div>
+        <div class="eight wide column">
+            <form action="/friends/<%-friend._id%>?_method=DELETE" method="POST">
+                <button class="ui fluid button orange red" >
+                    <i class="trash icon"></i>                
+                    Delete Friend
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<%include ./partials/footer %>
