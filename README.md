@@ -14,7 +14,7 @@
   * Semantic UI
   
 * Web app with ability to add/edit/delete object to/from database.
-* ![alt text](https://lh4.googleusercontent.com/OwtKxdxtJHnUggOEGIr8D-8UMf-0nCXz1KFjSPWvV9oZ2QbFBNcRvVn5Co5eJrv0clTRtW9xDg6SWuPpbnyc=w1299-h592-rw)
+* ![alt text](https://pouch.jumpshare.com/preview/4YdjnEjU2m7UmZkeh4ULa876wlqMmqPwD2ESssAxjJ2IXFCvzgVAMh1SBa508H8lmB5AVUczb5y09WX0oWjOpUMlxjY_cotFvf5jFID9JU8)
 
 # Install
 * Download the project
